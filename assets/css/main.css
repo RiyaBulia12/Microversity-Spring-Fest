@@ -45,7 +45,6 @@ header {
   font-weight: bold;
 }
 
-
 .message {
   line-height: 150%;
   font-size: 13px;
@@ -71,7 +70,7 @@ section {
 }
 
 .event-icon > img {
-  width: 64px
+  width: 64px;
 }
 
 .event-title {

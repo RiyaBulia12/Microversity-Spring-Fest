@@ -1,7 +1,6 @@
 import { eventList, guests } from './data.js';
 
-const events = eventList.map((event) =>
-  `<div class="row col-lg-2 event py-3 gap-1">
+const events = eventList.map((event) => `<div class="row col-lg-2 event py-3 gap-1">
       <a class="col-2 col-lg-12 event-icon">
          <img src="${event.icon}"/>
       </a>
@@ -11,8 +10,7 @@ const events = eventList.map((event) =>
 
 document.querySelector('.main-event').innerHTML = events;
 
-document.querySelector('.guests').innerHTML = guests.map((guest) =>
-  `<div class="row col-lg-6 ps-4 pb-4">
+document.querySelector('.guests').innerHTML = guests.map((guest) => `<div class="row col-lg-6 ps-4 pb-4">
       <a class="col-5 col-md-3 col-lg-4 guest-image">
          <img src="${guest.image}"/>
       </a>
@@ -24,10 +22,10 @@ document.querySelector('.guests').innerHTML = guests.map((guest) =>
       </div>
    </div>`).join('');
 
-const partners = [{
-  logo: 'assets/img/speaker_01.png',
-  alt: '',
-}];
+// const partners = [{
+//   logo: 'assets/img/speaker_01.png',
+//   alt: '',
+// }];
 
 // document.querySelector('.sponsors').innerHTML = partners.map((partner) => `<div class="row col-lg-6">
 //       <a class="col col-md-3 col-lg-4 sponsor-image">

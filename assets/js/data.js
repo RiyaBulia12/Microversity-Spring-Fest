@@ -62,4 +62,3 @@ export const guests = [
     description: 'A chartered accountant by profession, it was in the political sphere that he found his calling. A member of parliament and formerly a cabinet minister, served on the council of ministers under 2 PMs',
   },
 ];
-
