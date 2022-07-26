@@ -21,7 +21,7 @@ export const eventList = [{
 {
   icon: 'assets/img/icons/icons8-selfie-100.png',
   title: 'Drama',
-  subtitle: 'To all the drama queens out there, this is your best chance to hog the lime light and own the stage!',
+  subtitle: 'To all the drama queens out there, this is your best chance to hog the lime light and own the stage! This will be your moment of glory and your chance to steal the show, so prep up for I, Me, Myself ',
 }];
 
 export const guests = [
@@ -61,4 +61,31 @@ export const guests = [
     position: 'Minister of Commerce & Industry of India',
     description: 'A chartered accountant by profession, it was in the political sphere that he found his calling. A member of parliament and formerly a cabinet minister, served on the council of ministers under 2 PMs',
   },
+];
+
+export const sponsors = [
+  {
+    logo: 'assets/img/sponsor/google.png',
+    alt: 'Sponsored by Google ',
+  },
+  {
+    logo: 'assets/img/sponsor/microsoft.png',
+    alt: 'Sponsored by Microsoft ',
+  },
+  {
+    logo: 'assets/img/sponsor/toptal.png',
+    alt: 'Sponsored by Toptal',
+  },
+  {
+    logo: 'assets/img/sponsor/amazon.png',
+    alt: 'Sponsored by Amazon',
+  },
+  {
+    logo: 'assets/img/sponsor/invision.png',
+    alt: 'Sponsored by Invision',
+  },
+  {
+    logo: 'assets/img/sponsor/typeform.png',
+    alt: 'Sponsored by TypeForm',
+  }
 ];
