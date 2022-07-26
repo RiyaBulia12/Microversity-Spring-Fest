@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #272a31;
+  --primary-color: #333;
   --secondary-color: #ec5242;
   --neutral-color: #d3d3d3;
   --white-color: #fff;
@@ -8,6 +8,7 @@
 
 html * {
   font-family: var(--primary-font);
+  color: var(--primary-color);
 }
 
 .row,
@@ -26,9 +27,9 @@ header {
   width: 55%;
 }
 
-#fest-section {
+/* #fest-section {
   color: var(--primary-color);
-}
+} */
 
 .fest-intro {
   color: var(--secondary-color);
@@ -38,6 +39,7 @@ header {
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3px;
+  color: var(--secondary-color);
 }
 
 .intro-title {
@@ -86,6 +88,7 @@ section {
 .event-subtitle {
   font-size: 0.75em;
   align-self: center;
+  color: var(--white-color);
 }
 
 .main-event-container {
@@ -151,5 +154,64 @@ section {
 
 .copyright-text {
   font-size: 12px;
-  color: var(--primary-color);
+
+  /* color: var(--primary-color); */
+}
+
+/* About Section */
+.about-title {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.about-description {
+  /* color: var(--primary-color); */
+  font-size: 1.125em;
+  margin-bottom: 33px;
+}
+
+.timeline-box {
+  width: 960px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0.875em;
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+}
+
+.timeline {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.star-hr {
+  font-size: 24px;
+}
+
+.previous-events-img {
+  width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.artist {
+  background-color: var(--primary-color);
+}
+
+.testimonial-section {
+  border-bottom: 1px solid #dedede;
+}
+
+.testimonial {
+  font-family: fantasy;
+  font-size: large;
+  font-weight: 900;
+  width: 73%;
+  margin: 20px auto;
 }

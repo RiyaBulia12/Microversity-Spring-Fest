@@ -69,10 +69,6 @@ export const sponsors = [
     alt: 'Sponsored by Google ',
   },
   {
-    logo: 'assets/img/sponsor/microsoft.png',
-    alt: 'Sponsored by Microsoft ',
-  },
-  {
     logo: 'assets/img/sponsor/toptal.png',
     alt: 'Sponsored by Toptal',
   },
