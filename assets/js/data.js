@@ -87,5 +87,5 @@ export const sponsors = [
   {
     logo: 'assets/img/sponsor/typeform.png',
     alt: 'Sponsored by TypeForm',
-  }
+  },
 ];
