@@ -1,0 +1,158 @@
+:root {
+  --primary-color: #272a31;
+  --secondary-color: #ec5242;
+  --neutral-color: #d3d3d3;
+  --white-color: #fff;
+  --primary-font: 'Lato', sans-serif;
+}
+
+html * {
+  font-family: var(--primary-font);
+}
+
+.row,
+.row > * {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+header {
+  background-image: url('../img/background-images/bg-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-icon img {
+  width: 55%;
+}
+
+.fest-container {
+  color: var(--primary-color);
+}
+
+.fest-intro {
+  color: var(--secondary-color);
+}
+
+.intro-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.intro-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.message {
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+  text-align: justify;
+}
+
+.date-info {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.event-location {
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.event-icon {
+  align-self: center;
+}
+
+.event-icon > img {
+  width: 64px
+}
+
+.event-title {
+  text-align: center;
+  font-size: 14px;
+  align-self: center;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.event-subtitle {
+  font-size: 0.75em;
+  align-self: center;
+}
+
+.main-event-container {
+  background-image: url(../img/background-images/event-bg-img.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.main-event {
+  justify-content: center;
+}
+
+.event {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 0;
+}
+
+.hr {
+  color: var(--secondary-color);
+  width: 53px;
+  margin: 16px auto 54px;
+}
+
+.btn-container {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin: 40px 0 0;
+  width: 300px;
+}
+
+#join {
+  color: var(--white-color);
+  font-size: 20px;
+}
+
+.guest-image > img {
+  width: 138px;
+}
+
+.guest-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.guest-org {
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.guest-description {
+  font-size: 11px;
+}
+
+.guest-hr {
+  width: 23px;
+}
+
+.sponsor-container {
+  background-color: var(--primary-color);
+}
+
+.copyright-logo > img {
+  width: 150px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  color: var(--primary-color);
+}
