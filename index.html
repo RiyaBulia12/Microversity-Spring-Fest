@@ -5,8 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
 	<title>Microversity Fest</title>
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,18 +21,33 @@
 <body>
 	<header>
 		<div class="header-bg-image">
-			<nav class="navbar navbar-expand-lg py-3">
+			<nav class="navbar navbar-dark bg-dark d-lg-block d-none" id="sub-menu">
+				<ul class="navbar-nav" id="sub-menu-list">
+					<li class="nav-item" id="sub-menu-icon">
+						<a class="nav-link" href="#">
+							<img src="assets/img/icons/icons8-facebook-30.png">
+						</a>
+					</li>
+					<li class="nav-item" id="sub-menu-icon">
+						<a class="nav-link" href="#">
+							<img src="assets/img/icons/icons8-twitter-30.png">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="navbar navbar-expand-lg py-3" id="main-menu">
 				<div class="container-fluid" id="navbar-container">
 					<a class="navbar-icon d-lg-none" href="#">
 						<img src="assets/img/icons/icons8-menu-48.png">
 					</a>
-					<a class="navbar-icon d-none d-lg-block" href="#">
+					<a class="navbar-icon d-none d-lg-block" href="/">
 						<img src="assets/img/logo/logo.png">
 					</a>
-					<div class="d-none d-lg-block">
-						<ul class="navbar-nav gap-lg-5" id="navbar">
+					<div class="d-lg-block menu-overlay" id="menu">
+						<i class="close-icon d-lg-none ">X</i>
+						<ul class="navbar-nav gap-lg-5 menu-option" id="navbar">
 							<li class="nav-item">
-								<a class="nav-link" href="abouts.html">About</a>
+								<a class="nav-link" href="about.html">About</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Events</a>
@@ -45,16 +62,15 @@
 								<a class="nav-link" href="#">Sponsors</a>
 							</li>
 							<li class="nav-item" id="cause-btn">
-								<a class="nav-link cause" href="#">FF Campaign</a>
+								<a class="nav-link cause" href="#">FF Register</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<section class="mx-4 mx-lg-auto" id="fest-section">
+			<section class="mx-lg-auto" id="mobile-fest-section">
 				<div class="fest-intro">
-					<p class="intro-subtitle mb-0">2022 Edition</p>
-					<h1 class="text-uppercase intro-title"> Microversity <br /> Folklore<br /> Fiesta </h1>
+					<img src="assets/img/background-images/fest-text.png" class="intro-title py-5">
 				</div>
 				<p class="py-3 px-2 message border border-white border-3"> A fun festival where students from more than 80
 					universities who believe in the value of sharing and openness and create positive change gather and share
@@ -93,22 +109,21 @@
 			<h2 class="text-center">Sponsor</h2>
 			<hr class="hr" />
 			<div class="sponsor-list">
-				<div class="row">
-					<div class="sponsor row col-lg-10 m-auto"></div>
-				</div>
+				<div class="sponsor row col-lg-12 align-items-center"></div>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<div class="copyright container pb-4 pt-lg-4">
-			<div class="row text-center">
-				<a class="col-7 copyright-logo text-lg-start ps-lg-5"><img src="assets/img/logo/logo.png"></a>
-				<p class="col-5 copyright-text align-self-center">2022 Microversity. <br class="d-lg-none" />Some rights
-					reserved</p>
+		<section class="py-5 ">
+			<div class="copyright container pt-lg-4">
+				<div class="row text-center">
+					<a class="col-7 copyright-logo text-lg-start ps-lg-5"><img src="assets/img/logo/logo.png"></a>
+					<p class="col-5 copyright-text align-self-center">2022 Microversity. <br class="d-lg-none" />Some rights
+						reserved</p>
+				</div>
 			</div>
-		</div>
+		</section>
 	</footer>
-	<!-- </div> -->
 	<script src="assets/js/main.js" type="module"></script>
 	<!-- JavaScript Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

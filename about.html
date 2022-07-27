@@ -19,18 +19,33 @@
 <body>
 	<header>
 		<div class="header-bg-image">
-			<nav class="navbar navbar-expand-lg py-3">
+			<nav class="navbar navbar-dark bg-dark d-lg-block d-none" id="sub-menu">
+				<ul class="navbar-nav" id="sub-menu-list">
+					<li class="nav-item" id="sub-menu-icon">
+						<a class="nav-link" href="#">
+							<img src="assets/img/icons/icons8-facebook-30.png">
+						</a>
+					</li>
+					<li class="nav-item" id="sub-menu-icon">
+						<a class="nav-link" href="#">
+							<img src="assets/img/icons/icons8-twitter-30.png">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="navbar navbar-expand-lg py-3" id="main-menu">
 				<div class="container-fluid" id="navbar-container">
 					<a class="navbar-icon d-lg-none" href="#">
 						<img src="assets/img/icons/icons8-menu-48.png">
 					</a>
-					<a class="navbar-icon d-none d-lg-block" href="#">
+					<a class="navbar-icon d-none d-lg-block" href="index.html">
 						<img src="assets/img/logo/logo.png">
 					</a>
-					<div class="d-none d-lg-block">
-						<ul class="navbar-nav gap-lg-5" id="navbar">
+					<div class="d-none d-lg-block menu-overlay" id="menu">
+						<i class="close-icon d-lg-none ">X</i>
+						<ul class="navbar-nav gap-lg-5 menu-option" id="navbar">
 							<li class="nav-item">
-								<a class="nav-link" href="#">About</a>
+								<a class="nav-link" href="about.html">About</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Events</a>
@@ -45,17 +60,18 @@
 								<a class="nav-link" href="#">Sponsors</a>
 							</li>
 							<li class="nav-item" id="cause-btn">
-								<a class="nav-link cause" href="#">FF Campaign</a>
+								<a class="nav-link cause" href="#">FF Register</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<section class="mx-4 mx-lg-auto text-center" id="fest-section">
-				<div class="fest-intro pb-4">
+			<section class="mx-lg-auto text-center" id="fest-section">
+				<div class="fest-intro">
 					<h1 class="text-uppercase about-title"> Microversity <br />Folklore Fiesta 2022</h1>
+					<hr class="hr" />
 				</div>
-				<p class="about-description mx-5">
+				<p class="about-description">
 					<span class="secondary-text">The Microversity Spring Fest</span>, held every year, is a place where
 					Students from all over the India and experts, scholars and famous artists who support new talents and
 					skills contribute to this event together.
@@ -66,8 +82,7 @@
 						held with the motto "True Spirit of Youth" making it the oldest social and cultural fest around the
 						globe <br />
 						<span class="timeline secondary-text">1970s - 2010s</span><br /> Commenced as a platform for the
-						Micronauts of IIT Mumbai to showcase their skills, extended its boundaries and gained traction in
-						Maharashtra<br />
+						Micronauts to showcase their skills, extended its boundaries and gained traction in Maharashtra<br />
 						<span class="timeline secondary-text">2010s - 2020s</span><br /> Fest grew in scale, attracting
 						participants from different parts of India and across the world <br />
 						<span class="timeline secondary-text">2021</span><br /> Continuing the legacy of Predecessors, Spring
@@ -88,10 +103,10 @@
 	</header>
 	<main id="main-content">
 		<!-- About the Events -->
-		<section class="mx-lg-auto text-center p-5 testimonial-section" id="fest-section">
+		<section class="mx-lg-auto text-center testimonial-section" id="fest-section">
 			<h2>Spring Fest 2021 Testimonials</h2>
 			<hr class="hr" />
-			<p>Our previous guests had an amazing experience here at Spring Fiesta 2021. Read about what they have to say
+			<p>Our previous guests had an amazing experience here at Spring Fiesta 2020. Read about what they have to say
 			</p>
 			<img src="assets/img/background-images/artist.png" class="col-6 m-4 artist">
 			<p class="testimonial">"It was an amazing show. Kudos to Spring Fest Team for the great stage and hospitality.
@@ -110,29 +125,28 @@
 			<p class="pb-4">Take a look at the recent spring fest held in Delhi, and Kharagpur.</p>
 			<div class="row">
 				<div class="row col-lg-12 justify-content-center">
-					<div class="mb-3 col-lg-6 px-1" id="previous-events">
-						<img src="assets/img/background-images/2.png" class="previous-events-img" alt="2021 Events">
+					<div class="col-lg-6 px-1" id="previous-events">
+						<img src="assets/img/background-images/fest-2020.jpeg" class="previous-events-img" alt="2020 Events">
 					</div>
-					<div class="image-text">2021</div>
-					<div class="mb-3 col-lg-6 px-1" id="previous-events">
-						<img src="assets/img/background-images/2.png" class="previous-events-img" alt="2020 Events">
+					<div class="col-lg-6 px-1" id="previous-events">
+						<img src="assets/img/background-images/fest-2019.jpeg" class="previous-events-img" alt="2019 Events">
 					</div>
 				</div>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<section class="sponsor-container d-lg-block d-none py-5 ">
-			<div class="copyright container pb-4 pt-lg-4">
+		<section class="sponsor-container py-5 ">
+			<div class="copyright container pt-lg-4">
 				<div class="row text-center">
 					<a class="col-7 copyright-logo text-lg-start ps-lg-5"><img src="assets/img/logo/logo.png"></a>
-					<p class="col-5 copyright-text align-self-center text-white">2022 Microversity. <br
+					<p class="col-5 copyright-text align-self-center text-light">2022 Microversity. <br
 							class="d-lg-none" />Some rights reserved</p>
 				</div>
 			</div>
 		</section>
 	</footer>
-	<!-- </div> -->
+	<script src="assets/js/main.js" type="module"></script>
 	<!-- JavaScript Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

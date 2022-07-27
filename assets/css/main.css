@@ -23,13 +23,16 @@ header {
   background-size: cover;
 }
 
+
+
+
 .navbar-icon img {
   width: 55%;
 }
 
-/* #fest-section {
-  color: var(--primary-color);
-} */
+#mobile-fest-section {
+  padding-top: 0;
+}
 
 .fest-intro {
   color: var(--secondary-color);
@@ -43,8 +46,7 @@ header {
 }
 
 .intro-title {
-  font-size: 36px;
-  font-weight: bold;
+  width: 100%;
 }
 
 .message {
@@ -154,24 +156,21 @@ section {
 
 .copyright-text {
   font-size: 12px;
-
-  /* color: var(--primary-color); */
 }
 
 /* About Section */
 .about-title {
-  font-size: 70px;
+  font-size: 27px;
   font-weight: 900;
 }
 
 .about-description {
-  /* color: var(--primary-color); */
   font-size: 1.125em;
   margin-bottom: 33px;
 }
 
 .timeline-box {
-  width: 960px;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 0.875em;
 }
@@ -192,12 +191,12 @@ section {
 
 .previous-events-img {
   width: 100%;
+  height: 88%;
+  transition: filter 0.7s;
 }
 
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.previous-events-img:hover {
+  filter: grayscale(100%);
 }
 
 .artist {
@@ -212,6 +211,26 @@ section {
   font-family: fantasy;
   font-size: large;
   font-weight: 900;
-  width: 73%;
-  margin: 20px auto;
+}
+
+.sponsor-container {
+  background-color: var(--primary-color);
+}
+
+.sponsor-container > h2 {
+  color: var(--white-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+
+}
+
+.copyright-logo > img {
+  width: 175px;
+}
+
+.copyright-text {
+  font-size: 12px;
+  color: var(--white-color);
 }
