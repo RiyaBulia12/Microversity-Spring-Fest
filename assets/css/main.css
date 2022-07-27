@@ -23,9 +23,6 @@ header {
   background-size: cover;
 }
 
-
-
-
 .navbar-icon img {
   width: 55%;
 }
@@ -150,14 +147,6 @@ section {
   width: 23px;
 }
 
-.copyright-logo > img {
-  width: 150px;
-}
-
-.copyright-text {
-  font-size: 12px;
-}
-
 /* About Section */
 .about-title {
   font-size: 27px;
@@ -223,7 +212,6 @@ section {
 
 footer {
   background-color: var(--primary-color);
-
 }
 
 .copyright-logo > img {

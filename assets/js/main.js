@@ -9,34 +9,34 @@ const guest = document.querySelector('.guests');
 const sponsor = document.querySelector('.sponsor');
 
 function closeNav() {
-   menuOverlay.style.cssText = `width: 0%; display: none;`;
+  menuOverlay.style.cssText = 'width: 0%; display: none;';
 }
 
-if (screen.width <= 768) {
-   if (menuBtn) {
-      menuBtn.addEventListener('click', () => {
-         menuOverlay.style.cssText = `width: 100%; display: block;`;
-         document.body.style.overflow = 'hidden';
-      })
-   }
-   if (menuOption) {
-      menuOption.forEach(element => {
-         element.addEventListener('click', () => {
-            document.body.style.overflow = 'auto';
-            closeNav();
-         })
+if (window.screen.width <= 768) {
+  if (menuBtn) {
+    menuBtn.addEventListener('click', () => {
+      menuOverlay.style.cssText = 'width: 100%; display: block;';
+      document.body.style.overflow = 'hidden';
+    });
+  }
+  if (menuOption) {
+    menuOption.forEach((element) => {
+      element.addEventListener('click', () => {
+        document.body.style.overflow = 'auto';
+        closeNav();
       });
-   }
-   if (closeBtn) {
-      closeBtn.addEventListener('click', () => {
-         document.body.style.overflow = 'auto';
-         closeNav();
-      })
-   }
+    });
+  }
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      document.body.style.overflow = 'auto';
+      closeNav();
+    });
+  }
 }
 
 if (mainEvent) {
-   mainEvent.innerHTML = eventList.map((event) => `<div class="row col-lg-2 event py-2 gap-1 gap-lg-4 text-center">
+  mainEvent.innerHTML = eventList.map((event) => `<div class="row col-lg-2 event py-2 gap-1 gap-lg-4 text-center">
       <a class="col-2 col-lg-12 event-icon">
          <img src="${event.icon}"/>
       </a>
@@ -46,7 +46,7 @@ if (mainEvent) {
 }
 
 if (guest) {
-   guest.innerHTML = guests.map((guest) => `<div class="row col-lg-6">
+  guest.innerHTML = guests.map((guest) => `<div class="row col-lg-6">
       <a class="col-6 col-md-3 col-lg-4 guest-image">
          <img src="${guest.image}"/>
       </a>
@@ -60,7 +60,7 @@ if (guest) {
 }
 
 if (sponsor) {
-   sponsor.innerHTML = sponsors.map((sponsor) => `<div class="col-lg text-center">
+  sponsor.innerHTML = sponsors.map((sponsor) => `<div class="col-lg text-center">
       <a class="col-md-3 text-center">
          <img src="${sponsor.logo}" width="100px" alt="${sponsor.alt}"/>
       </a>

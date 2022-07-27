@@ -13,7 +13,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 0px;
+    padding: 0;
   }
 
   #sub-menu-list {
@@ -34,12 +34,8 @@
     z-index: 10;
   }
 
-  .intro-title {
-    width: 65%;
-  }
-
   #mobile-fest-section {
-    padding: 200px;
+    padding: 210px 320px;
   }
 
   .cause {
