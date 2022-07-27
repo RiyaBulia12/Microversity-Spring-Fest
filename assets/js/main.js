@@ -48,7 +48,7 @@ if (mainEvent) {
 if (guest) {
   guest.innerHTML = guests.map((guest) => `<div class="row col-lg-6">
       <a class="col-6 col-md-3 col-lg-4 guest-image">
-         <img src="${guest.image}" aalt="${guest.alt}"/>
+         <img src="${guest.image}" alt="${guest.alt}"/>
       </a>
       <div class="col-6 col-md-9 col-lg-8 py-2">
          <h3 class="guest-name">${guest.name}</h3>
