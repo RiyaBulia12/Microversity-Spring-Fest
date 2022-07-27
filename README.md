@@ -12,12 +12,12 @@
 - Tools Used: Github Desktop
 - VCS: Git
 - Package Manager: Node, NPM
-- Template Reference: (Cindy Shin Behance)[https://www.behance.net/gallery/29845175/CC-Global-Summit-2015] 
+- Template Reference: [Cindy Shin Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015])
 
 
 ## Live Demo
 
-[Live Demo Link](https://riyabulia12.github.io/Project/)
+[Microversity Folklore Fiesta](https://riyabulia12.github.io/Project/)
 
 
 ## Getting Started
