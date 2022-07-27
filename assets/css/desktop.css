@@ -1,0 +1,144 @@
+@media (min-width: 768px) {
+  .navbar {
+    background-color: var(--white-color);
+    height: 80px;
+  }
+
+  #navbar-container {
+    padding: 0 17%;
+  }
+
+  #sub-menu {
+    height: 36px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0;
+  }
+
+  #sub-menu-list {
+    flex-direction: row;
+    position: absolute;
+    right: 17%;
+    top: -12%;
+  }
+
+  .sub-menu-icon {
+    padding: 0 10px;
+  }
+
+  #main-menu {
+    position: fixed;
+    width: 100%;
+    top: 36px;
+    z-index: 10;
+  }
+
+  #mobile-fest-section {
+    padding: 210px 320px;
+  }
+
+  .cause {
+    border: 4px solid var(--secondary-color);
+  }
+
+  .fest-section {
+    max-width: 1100px;
+    padding: 120px 0;
+  }
+
+  .intro-title {
+    font-size: 90px;
+    letter-spacing: 5px;
+    width: 73%;
+  }
+
+  .message {
+    font-size: 1.125em;
+    width: 630px;
+    font-weight: 300;
+  }
+
+  .date-info {
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+  }
+
+  .event-location {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 210px 210px;
+  }
+
+  .event-title {
+    font-size: 1.5em;
+  }
+
+  .event-subtitle {
+    font-size: 0.813em;
+  }
+
+  .view-all {
+    text-align: end;
+    padding-right: 100px;
+    padding-top: 20px;
+  }
+
+  .view-all > a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.125em;
+    transition: color 0.5s;
+  }
+
+  .view-all a:hover {
+    color: var(--secondary-color);
+  }
+
+  #navbar > li > a {
+    transition: color 0.5s;
+  }
+
+  #navbar > li > a:hover {
+    color: var(--secondary-color);
+  }
+
+  #cause-btn > .cause {
+    transition: all 0.5s;
+  }
+
+  #cause-btn > .cause:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+  }
+
+  .guest-description {
+    font-size: 0.875em;
+  }
+
+  footer {
+    background-color: var(--white-color);
+  }
+
+  .copyright-logo > img {
+    width: 225px;
+  }
+
+  .copyright-text {
+    font-size: 16px;
+    color: var(--primary-color);
+  }
+
+  /* About section */
+  .about-title {
+    font-size: 70px;
+    font-weight: 900;
+  }
+
+  .artist {
+    width: 70%;
+  }
+}
