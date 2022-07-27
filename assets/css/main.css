@@ -36,10 +36,9 @@ header {
 }
 
 .intro-subtitle {
-  font-size: 22px;
+  color: #d28b2a;
+  font-family: 'Verdana', sans-serif;
   font-weight: bold;
-  letter-spacing: 3px;
-  color: var(--secondary-color);
 }
 
 .intro-title {
@@ -189,6 +188,7 @@ section {
 }
 
 .artist {
+  width: 85%;
   background-color: var(--primary-color);
 }
 
